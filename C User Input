@@ -1,6 +1,13 @@
 #include <stdio.h>
 int main() {
     printf("Get input From User: \n");
+    int n1, n2;
+    printf("Enter 1st Number: ");
+    scanf("%d", &n1);   // auto line break dey.
+    printf("Enter 2nd Number: ");
+    scanf("%d", &n2);
+    int sum = n1 + n2;
+    printf("Total is: %d\n", sum);
 
     char name[5];
     printf("Enter your name: ");
