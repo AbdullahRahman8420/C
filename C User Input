@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    printf("Get input From User: \n");
+
+    char name[5];
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("%s", name);
+
+
+
+    return 0;
+}
